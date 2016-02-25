@@ -1,0 +1,420 @@
+/* LOGIN STYLES ******************************************************/
+
+.login-body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  background: url(../img/background/main.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    max-width: 600px;
+  }
+}
+
+.login-container {
+  max-width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+.container .jumbotron {
+    padding: 0px;
+  }
+}
+
+.login-jumbotron {
+  padding: 0px;
+  border: 2px solid #333333;
+}
+
+.login-alert {
+  border: 2px solid #333333;
+  position: relative;
+  top: 3px;
+}
+
+.login-alert .text-alert {
+  font-size: 14px;
+  position: relative;
+  top: -7px;
+  left: 10px;
+}
+
+.glyphicon-alert {
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.form-signin {
+  max-width: 600px;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="username"],
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-color: #333333;
+}
+/*********************************************************************/
+
+/* NAVBAR STYLES *****************************************************/
+
+.navbar-blue {
+  background-color: #428bca;
+  border-bottom: none;
+  margin-bottom: 0px;
+}
+
+.navbar-nav a,
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-menu a:hover,
+.current-user a:hover {
+
+  color: #428bca;
+  -webkit-transition: color 500ms ease;
+  -moz-transition: color 500ms ease;
+  -o-transition: color 500ms ease;
+  transition: color 500ms ease;
+}
+
+.navbar-menu a:hover,
+.logout-btn a:hover
+{
+  background-color: white !important;
+  -webkit-transition: background-color 200ms ease;
+  -moz-transition: background-color 200ms ease;
+  -o-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+}
+.user-info-display {
+  background-color: #428bca;
+}
+
+.current-user span {
+  display: block;
+  padding: 15px;
+  color: white;
+}
+
+.search-nav {
+  border: none;
+  border-radius: 15px;
+}
+
+.search-btn {
+  color: #428bca;
+  border: none;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .collapse {
+    display: inherit;
+  }
+  .current-user span {
+    display: inherit !important;
+  }
+  .search-btn {
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+  }
+  .search-nav {
+    max-width: 225px;
+    position: relative;
+    bottom: -3px;
+    float: left;
+  }
+}
+
+/*********************************************************************/
+
+/* CUSTOM JUMBOTRON *****************************************************/
+.custom-jumbotron {
+  padding: 20px;
+  border-bottom: 2px solid #333333;
+  background-color: white;
+}
+
+.heading-jumbotron {
+  padding: 10px;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+
+.heading-jumbotron h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-btn-col {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.jumbotron-nav-btn {
+  padding: 15px;
+  margin-top: 0px;
+  font-size: 18px;
+  width: 270px;
+}
+
+.jumbotron-nav-btn a {
+  text-align: center;
+}
+
+.jumbotron-filter-btn {
+  padding: 15px;
+  margin-top: 0px;
+  font-size: 12px;
+  width: 100%;
+}
+
+.jumbotron-filter-btn a {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron-filter-btn {
+    width: 250px;
+  }
+}
+
+/* USERS REQUEST LIST STYLE *******************************************/
+
+.requests-regular {
+  margin-top: 50px;
+}
+
+
+/* Regular */
+.request-thumbnail {
+  padding: 0 15px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #333333;
+}
+
+.request-thumbnail p {
+  text-align: left;
+}
+.request-progress {
+  border: 1px solid #CACACA;
+}
+
+
+/* Min */
+.request-min-thumbnail {
+  padding: 0 15px;
+  text-align: left;
+  background-color: white;
+  border: 2px solid #333333;
+}
+
+.request-min-thumbnail h2 {
+  font-size: 30px;
+}
+
+.min-request-btn {
+}
+
+/*********************************************************************/
+
+/* APPROVAL ALERT STYLES *********************************************/
+
+.approval-alert {
+  background-color: white;
+  border: 1px solid #333333;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.approval-alert .panel-heading {
+  background-color: white;
+  border-bottom: 1px solid #333333;
+}
+
+.approval-alert thead tr {
+  background-color: white;
+  border-bottom: 2px solid #333333;
+}
+
+.approval-alert th,
+.approval-alert td {
+  padding: 15px !important;
+  vertical-align: middle !important;
+  border: none;
+  border-bottom: 0px solid #333333 !important;
+}
+
+.approval-alert a {
+  float: right;
+}
+
+/* Remove columns as table shrinks */
+@media screen and (max-width: 991px) {
+  .alert-creationDate {
+    display: none;
+  }
+}
+@media screen and (max-width: 660px) {
+  .alert-state {
+    display: none;
+  }
+  .alert-requestId {
+    display: none;
+  }
+}
+
+/*********************************************************************/
+
+
+/* FORM STYLES *******************************************************/
+
+.form-context {
+  display: none;
+}
+
+.general-form .form-control {
+  width: 100%;
+}
+.general-form textarea {
+  resize: none;
+}
+
+.resource-upload {
+  margin: 10px 0;
+}
+
+.form-pagination {
+  text-align: center;
+}
+
+.form-pagination {
+  display: none;
+}
+
+/*********************************************************************/
+
+/* SINGLE REQUEST STYLES *********************************************/
+
+
+@media screen and (max-width: 991px) {
+  .approval-btns { 
+    float: left;
+  }
+}
+
+.jumbotron-approval-btn {
+  padding: 15px;
+  margin-top: 0px;
+  font-size: 18px;
+  width: 125px;
+}
+
+.jumbotron-approval-btn a {
+  text-align: center;
+}
+
+/* MENU STYLES *******************************************************/
+
+.menu-content {
+  background-color: white;
+  border: 2px solid #333333;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/*********************************************************************/
+
+/* SEARCH STYLES *****************************************************/
+
+@media screen and (max-width: 991px) {
+  .search-main {
+    text-align: center;
+  }
+}
+
+
+.search-input-main {
+  width: 60%;
+  display: inline-block;
+}
+
+.search-btn-main {
+
+  margin-left: 10px; 
+  display: inline-block;
+  
+}
+
+/*********************************************************************/
+
+.main-body {
+  background: url(../img/background/main.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+  border-color: #000;
+}
+
+h1, h2, h3 {
+  font-weight: 200;
+}
+
+.btn-block {
+  width: 80px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.general-content {
+  background-color: white;
+  border: 2px solid #333333;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
